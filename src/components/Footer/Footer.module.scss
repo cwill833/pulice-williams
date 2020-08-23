@@ -1,0 +1,11 @@
+.footer {
+    border: 1px solid black;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+
+        a {
+            text-decoration: none;
+            color: #000;
+        }
+}
