@@ -5,7 +5,8 @@ import { Route, Switch} from 'react-router-dom';
 const HomePage = () => {
     return (
         <div>
-            <p>This is the Home page</p>
+            {/* <CarouselComponent /> */}
+            {/* <DescriptionComponent or possibly just a p tag /> */}
         </div>
     )
 }
