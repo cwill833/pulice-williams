@@ -1,14 +1,22 @@
 import React from 'react';
 import styles from './App.module.scss'
+import Footer from './components/Footer/Footer';
+import HomePage from './pages/Home/HomePage';
+import Content from './components/Content/Content';
+import SideBar from './components/SideBar/SideBar';
+
+
+
 function App() {
   return (
-    <div className={styles.landingContainer}>
+    <div>
+      <HomePage />  
       <div className={styles.menuPlusContent}>
-        <div>SideBar Menu</div>
-        <div>middle content (this will be a switch component)</div>
+        <SideBar />
+        <Content />
       </div>
-      <div>footer component</div>
-    </div>
+      <Footer />
+      </div>
   );
 }
 
